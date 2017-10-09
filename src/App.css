@@ -1,0 +1,160 @@
+
+
+body {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #1F8D6C;
+}
+
+#root{
+  background-color: #1F8D6C;
+  padding: 5%;
+}
+
+.bodie{
+  background-color: white;
+}
+
+.media-object {
+  width: 50%;
+  display: block;
+}
+
+p{
+  width: 90%;
+}
+
+.bodie p {
+  padding: 2%;
+  font-family: sans-serif;
+  font-size: 17px;
+}
+
+.media{
+  margin-right: 3%;
+  margin-left: 6%;
+}
+
+.about{
+  margin: 0px;
+  padding: 5%;
+  background-color: #EBF0F3;
+}
+
+hr{
+  text-align: center;
+  padding: 1px;
+  background-color: #BBADAD;
+}
+
+.btn{
+  margin-top: 5%;
+  margin-right: 2%;
+  padding: 3%;
+  color: white;
+  text-decoration: none;
+}
+
+div.col-md-12.lenguajes{
+  width: 100%;
+}
+
+.code{
+  color: white;
+  background-color: black;
+  padding: 1.6%;
+}
+
+/* /////////////////////////////////////////////// */
+@media (min-width: 0) and (max-width: 768px) { 
+  body {
+    padding-top: .8em;
+  }
+  .home a {
+    border-color: transparent;
+  }
+   .icn-logo {
+     display: block;
+     width: 100%;
+     text-align: center;
+     padding-bottom: 4px;
+   }
+   .main-nav a {
+     border-top: 2px solid transparent;
+     border-bottom: 2px solid transparent;
+   }
+   .main-nav a:hover {
+     border-color: rgba(0,0,0, .1);
+   }
+   .courses h2 {
+     margin-bottom: 0;
+   }
+   .course-nav {
+     display: block;
+     margin: 1.5em 0 3.2em;
+   }
+   .home a,
+   input,
+   button {
+     display: block;
+     width: 100%;
+     margin-bottom: 1em;
+   }
+}
+@media (min-width: 769px) {
+  body {
+    padding-top: 3em;
+  }
+  .home a {
+    border-color: #3b80d1;
+  }
+  .media img,
+  .media > div,
+  .teacher {
+    float: left;
+  }
+  .media > div {
+    width: 85.1%;
+    margin-left: 1.5em;
+  } 
+  .teacher {
+    width: 48.73%;
+    margin-bottom: 1.5em;
+  }
+  .teacher + .teacher {
+    margin-left: 2.54%;
+  }
+  .teacher:nth-child(2n+3) {
+    clear: left;
+    margin-left: 0;
+  }
+  /* MAIN NAV -------- */
+  .icn-logo {
+    margin-right: auto;
+    padding: 0 2em;
+  }
+  header,
+  .main-nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .main-nav a {
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    padding: 1.25em 1.5em;
+  }
+  .main-nav a:hover {
+    border-color: rgba(0,0,0, .1);
+  }
+  /* COURSE NAV -------- */
+  .course-nav {
+    float: right;
+  } 
+  .courses h2 {
+    float: left;
+  }
+}
